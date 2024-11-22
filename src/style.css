@@ -1,0 +1,50 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #198754;
+  --light-gray: #f8f9fa;
+}
+
+body {
+  background-color: var(--light-gray);
+  min-height: 100vh;
+  color: #212529;
+}
+
+.card {
+  background-color: white;
+}
+
+.modal-content {
+  background-color: white;
+  color: #212529;
+}
+
+.list-group-item {
+  background-color: white;
+  color: #212529;
+}
+
+.calendar-container {
+  background-color: white;
+  color: #212529;
+}
+
+.day {
+  color: #212529;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-success {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
